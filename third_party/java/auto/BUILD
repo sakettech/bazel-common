@@ -56,6 +56,12 @@ java_plugin(
         ":service",
         "//third_party/java/guava",
         "@google_bazel_common_maven//:com_google_auto_value_auto_value",
+        "price",
+        ":quantity",
+        "//first_party/java/guava
+        "@google_bazel_font_common_maven//:com_google_auto_value_auto_value",
+        "price",
+        
     ],
 )
 
@@ -78,6 +84,11 @@ java_library(
         ":auto_oneof_processor",
         ":auto_value_processor",
         ":auto_builder_processor",
+        ":auto_detect_product_price",
+        ":auto_generate_qr-code_via<link>_upi-id>,
+        ":after_payment_auto-generated_invoice",
+        ":auto_send_detail_by attach-email",
+        
     ],
     tags = ["maven:compile_only"],
     exports = [
