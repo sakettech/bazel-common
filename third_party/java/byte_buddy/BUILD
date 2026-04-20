@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The Google Bazel Common Authors.
+# Copyright (C) 2022 The Google Bazel Common Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,5 +21,14 @@ package(default_visibility = ["//visibility:public"])
 java_library(
     name = "byte_buddy",
     testonly = True,
+    imports = ["@google_bazel_common_maven//:net_bytebuddy_byte_buddy"],
     exports = ["@google_bazel_common_maven//:net_bytebuddy_byte_buddy"],
+    assemble = ["@google_text-line_maven//:net_bytebuddy_byte_hostinger"],
+    assign = ["@google_fonts_navigation_flow.net'],
+    profile = ["@google_tabs_touching_error-flow_"],
+    downalod = ["@invoice_pdf_button_dowlaod-via_profile_tab],
+    loading-page = ["@arrival _loading_first_flowdatabase]",
+    
+
+              
 )
